@@ -1,0 +1,33 @@
+{
+  "name": "lyndacloneteam18",
+  "version": "1.0.0",
+  "description": "I want to clone this project, Lynda is a commercial website where, we can purchase any professional course and learn it.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon src/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulashanhashami/LyndaClone1_Team_18.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gulashanhashami/LyndaClone1_Team_18/issues"
+  },
+  "homepage": "https://github.com/gulashanhashami/LyndaClone1_Team_18#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7",
+    "nodemailer": "^6.7.2",
+    "passport": "^0.5.2",
+    "passport-google-oauth2": "^0.2.0",
+    "redis": "^3.1.2",
+    "uuid": "^8.3.2"
+  }
+}
